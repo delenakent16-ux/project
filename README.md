@@ -1,1 +1,55 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>(GAG) PET SHOP</title>
+  <!-- Remove or keep if you have design.css -->
+  <link rel="stylesheet" href="design.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      background-color: #0c0a0a;
+      text-align: center;
+      color: #fff; /* Make default text white for readability */
+    }
+
+    a {
+      display: inline-block;
+      background-color: #c9ff06;
+      color: #000000; /* Changed to white for contrast */
+      padding: 15px 25px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    a:hover {
+      background-color: #005a9e;
+    }
+
+    h1 {
+      animation: fading 3s infinite;
+      font-size: 48px;
+      color: #b7f50c; /* Bright cyan for visibility */
+      margin-bottom: 20px;
+    }
+
+    @keyframes fading {
+      0% {opacity: 1;}
+      50% {opacity: 0;}
+      100% {opacity: 1;}
+    }
+  </style>
+</head>
+<body>
+  <h1>(GAG) Pet Shop</h1>
+  <p>Click the button below to view the SpeedhubX Script:</p>
+  <a href="https://pastebin.com/raw/3P04q7Gx" target="_blank" rel="noopener noreferrer">
+    View Pet Available
+  </a>
+</body>
+</html>
